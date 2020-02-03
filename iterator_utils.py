@@ -58,7 +58,6 @@ def get_iterator(
     src_tgt_dataset = src_tgt_dataset.shuffle(output_buffer_size)
     src_tgt_dataset = src_tgt_dataset.map(lambda src, tgt, retrieval, retrieval_len, retrieval_score: (src, tgt, tf.string_split([retrieval], delimiter="\t").values, tf.string_to_number(tf.string_split([retrieval_len]).values, tf.int32), tf.string_to_number(tf.string_split([retrieval_score], delimiter="\t").values, tf.float32)))
     src_tgt_dataset = src_tgt_dataset.filter(lambda src, tgt, retrieval, retrieval_len, retrieval_score: tf.logical_and(tf.size(src) > 0, tf.size(tgt) > 0))
-    # This is used for STC dataset. When applying to DailyDialog, you should only use five retrieval results.
     src_tgt_dataset = src_tgt_dataset.map(lambda src, tgt, retrieval, retrieval_len, retrieval_score: (tf.string_split([src]).values, tf.string_split([
         tgt]).values, [tf.string_split([retrieval[0]]).values,
                        tf.string_split([retrieval[1]]).values,
