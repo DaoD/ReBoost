@@ -35,8 +35,8 @@ python compute_recall.py
 ```
 
 ## Cite
-If you use the code and datasets, please cite the following paper:
-**"ReBoost: A Retrieval-Boosted Sequence-to-Sequence Model for Neural Response Generation"**
+If you use the code and datasets, please cite the following paper:  
+**"ReBoost: A Retrieval-Boosted Sequence-to-Sequence Model for Neural Response Generation"**  
 Yutao Zhu, Zhicheng Dou, Jian-Yun Nie and Ji-Rong Wen. _IR Journal (2019)_
 
 ```
@@ -53,9 +53,6 @@ Yutao Zhu, Zhicheng Dou, Jian-Yun Nie and Ji-Rong Wen. _IR Journal (2019)_
   pages     = {27--48},
   year      = {2020},
   url       = {https://doi.org/10.1007/s10791-019-09364-x},
-  doi       = {10.1007/s10791-019-09364-x},
-  timestamp = {Mon, 27 Jan 2020 10:41:47 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/ir/ZhuDNW20},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  doi       = {10.1007/s10791-019-09364-x}
 }
 ```
