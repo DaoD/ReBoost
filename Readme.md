@@ -5,8 +5,8 @@ This repository contains the source code and datasets for the IR Journal paper [
 <img src="image/model.png">
 
 ## Results
-<img src="image/UbuntuV1_V2.png">
-<img src="image/Douban_Ecommerce.png">
+<img src="image/automatic_results.png">
+<img src="image/human_results.png">
 
 ## Dependencies
 Python 3.5 <br>
