@@ -15,7 +15,6 @@ Tensorflow 1.2.0
 ## Datasets
 Your can download the processed datasets used in our paper here and unzip it to the folder of ```data```. <br>
 [Weibo (STC)](https://drive.google.com/file/d/15PY2VmiqRKr-0-crwGJsrBKS5xTqubGu/view?usp=sharing) <br>
-[DailyDialog](https://drive.google.com/file/d/1n4tE7OWQJc9kWvqd3f3GlyPRm1Pyw9FZ/view?usp=sharing) <br>
 
 ## Train and test a model
 python3 runModel.py
