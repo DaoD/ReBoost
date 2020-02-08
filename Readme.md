@@ -10,7 +10,7 @@ This repository contains the source code and datasets for the IR Journal paper [
 
 ## Dependencies
 Python 3.5 <br>
-Tensorflow 1.2.0
+Tensorflow 1.1.2
 
 ## Datasets
 Your can download the processed datasets used in our paper here and unzip it to the folder of ```data```. <br>
